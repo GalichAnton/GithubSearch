@@ -25,7 +25,7 @@ body {
 }
 
 .app-container {
-  max-width: 40%;
+  max-width: 560px;
 }
 
 .app-form {
@@ -37,7 +37,7 @@ body {
 .app-input {
   width: 100%;
   padding: 18px 60px;
-  background-image: url('../public/assets/img/search.svg');
+  background-image: url('./assets/img/search.svg');
   background-repeat: no-repeat;
   background-position: 23px center;
   background-size: 15px;
@@ -71,18 +71,12 @@ body {
   color: #fff;
   cursor: pointer;
 }
-.disabled{
-  cursor: auto;
-  background-color: #9ea1a1;
-}
 
 .app-user {
   padding: 35px;
   background-color: #1f2a48;
   border: 1px solid #003670;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
 }
 
 .app-user_info {
@@ -90,19 +84,8 @@ body {
   margin-bottom: 25px;
 }
 
-
 .app-user_image {
-  flex-shrink: 0;
   margin-right: 24px;
-  width: 150px;
-  height: 150px;
-  
-}
-.app-user_image img{
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
 }
 
 .app-user_name {
@@ -134,7 +117,6 @@ body {
   list-style: none;
   border-radius: 10px;
   background-color: #141c2f;
-  justify-content: space-around;
 }
 
 .app-user_stats-item {
@@ -142,11 +124,6 @@ body {
   font-size: 16px;
   line-height: 20px;
   border-right: 1px solid #1f2a48;
-  text-align: center;
-}
-
-.app-user_stats-item span {
-  margin-left: 5px;
 }
 
 .app-user_stats-item:last-child {
@@ -170,14 +147,14 @@ body {
   font-size: 15px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  background-image: url('../public/assets/img/location.svg');
+  background-image: url('./assets/img/location.svg');
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 16px;
 }
 
 .app-user_location-item:last-child {
-  background-image: url('../public/assets/img/link.svg');
+  background-image: url('./assets/img/link.svg');
 }
 
 .app-user_location-item a {
